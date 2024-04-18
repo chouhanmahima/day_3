@@ -1,0 +1,130 @@
+main{
+    width: 100%;
+    padding: 0 2rem;
+    background-color: #efeeee;
+}
+
+main div{
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.img img{
+    width: 100%;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.contact-details{
+    /* width: 100%; */
+    background-color: #981a1a;
+    color: #dcdada;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contact-details p{
+    width: 47%;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-details div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn{
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    padding: 1rem;
+    cursor: pointer;
+    /* border-radius: 0.625rem; */
+    width: 16%;
+}
+
+.btn:hover{
+    box-shadow: 3px 3px 2px 2px rgb(53, 50, 50);
+}
+
+.content-part{
+    width: 96%;
+    padding: 2rem;
+    border-bottom: 2px solid #b0adad;
+}
+
+.content-part p{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.content-part p:nth-child(1){
+    color: #981a1a;
+}
+
+.address-part {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.address-part h3{
+    color: #981a1a;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.address-part p{
+    width: 30%;
+    text-align: center;
+}
+
+@media screen and (max-width:721.5px) {
+    .btn{
+        width: 50%;
+    }
+
+    .contact-part p{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:517.5px) {
+
+    .contact-part div{
+        flex-direction: column;
+        align-items: center;
+        gap: 0.625rem;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    .contact-part p{
+        width: 90%;
+    }
+
+    .address-part p{
+        width: 60%;
+    }
+}
